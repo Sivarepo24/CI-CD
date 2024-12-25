@@ -1,0 +1,15 @@
+version: 0.2
+phase:
+  install:
+    runtime-version:
+      nodejs: 16
+    commands:
+      - echo "Installing node dependencie"
+      - npm install
+  build:
+    commands:
+      - echo "build phase started"
+      - npm run start
+  artifacts:
+    files:
+      - "**/*"
