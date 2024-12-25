@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo apt install httpd -y
-sudo service http start
+sudo yum install httpd -y
+sudo service httpd start
